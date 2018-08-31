@@ -11,6 +11,6 @@ class BreedTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Breed::class, 5)->create();
+        factory(Pratice\Breed::class, 5)->create();
     }
 }

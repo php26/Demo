@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\Breed::class, function (Faker\Generator $faker) {
+$factory->define(Pratice\Breed::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
     ];

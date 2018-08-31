@@ -1,6 +1,6 @@
 <?php
-use App\Breed;
-use App\User;
+use Pratice\Breed;
+use Pratice\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +14,7 @@ use App\User;
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\Cat::class, function (Faker\Generator $faker) {
+$factory->define(Pratice\Cat::class, function (Faker\Generator $faker) {
 	$breed_ids= Breed::pluck('id');
 	$user_ids= User::pluck('id');
     return [

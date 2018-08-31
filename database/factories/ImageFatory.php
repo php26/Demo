@@ -14,7 +14,7 @@ use Pratice\User;
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(App\Image::class, function (Faker\Generator $faker) {
+$factory->define(Pratice\Image::class, function (Faker\Generator $faker) {
 	$breed_ids= Breed::pluck('id');
 	$user_ids= User::pluck('id');
     return [
